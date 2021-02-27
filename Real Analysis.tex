@@ -1,0 +1,178 @@
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{physics}
+\begin{document}
+\title{Real Analysis}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}{Definition}[section]
+\maketitle
+\chapter{Relations}
+\section{Relations}
+
+\begin{definition}
+Let X and Y be sets. Then $R\subseteq$ $X\times$Y is called a \textbf{Relation} over sets X and Y.
+\end{definition}
+If $(x,y)\in $R, its is denoted as xRy, or "x is related to y", where $x \in $X and $y \in $Y. Sometimes, relations over two sets are called binary relations as in general, relations can be subsets of Cartesian Product of more than two sets.
+
+\section{Functions}
+\begin{definition}
+A Relation is called \textbf{functional} or right unique if:\\
+$\forall $x $\in $X , $\forall $y $\in $Y,$\forall $z $\in $Y, $(x,y)\in $R $\wedge$ $(x,z)\in $R $\implies$ $y=$z
+\end{definition}
+
+\begin{definition}
+A Relation is called \textbf{serial} or left total if:\\
+$\forall $x$\in $X, $\exists $y$\in $Y:$(x,y) \in $R
+\end{definition}
+
+\begin{definition}
+A Relation that is functional and serial is called a \textbf{function}.
+\end{definition}
+A function is usually denoted by\\
+\\
+\emph{f} : X $\rightarrow$ Y\\
+\\
+and is usually thought of as a rule that assigns every element in X to exactly one element in Y.
+
+\begin{definition}
+A function that is left unique is called \textbf{injective} or one-one.
+\end{definition}
+
+\begin{definition}
+A function that is right total is called \textbf{surjective} or onto.
+\end{definition}
+
+\begin{definition}
+A function that is both one-one and onto is called a \textbf{bijective function} or a \textbf{bijection}.
+\end{definition}
+If a function \emph{f} is bijective, we its \textbf{inverse} as\\
+\\
+$f^{-1}$: Y $\rightarrow$ X\\
+
+\section{Homogeneous Relations}
+\begin{definition}
+A \textbf{Homogeneous Relation} is a subset of a Cartesian Product of a set with itself.
+\end{definition}
+
+\begin{definition}
+A Relation R is \textbf{Reflexive} if \\
+$\forall$x $\in$X, (x,x) $\in$ R
+\end{definition}
+
+\begin{definition}
+A Relation is \textbf{Symmetric} if \\
+$\forall$x,y $\in$X, (x,y) $\in$ R $\implies$ (y,x) $\in$ R
+\end{definition}
+
+\begin{definition}
+A Relation is \textbf{Transitive} if \\
+$\forall$x,y,z $\in$X, (x,y) $\in$ R $\wedge$ (y,z) $\in$ R $\implies$ (x,z) $\in$ R
+\end{definition}
+
+\begin{definition}
+A Relation is \textbf{Antisymmetric} if \\
+$\forall$x,y $\in$X, (x,y) $\in$ R $\implies$ (y,x) $\notin$ R
+\end{definition}
+
+
+\section{Equivalence Relations}
+\begin{definition}
+A Relation that is Reflexive, Symmetric and Transitive is called an  \textbf{Equivalence Relation}.
+\end{definition}
+Equivalence relations are usually denoted by $\sim$.
+Let $\sim$ be an equivalence relation on a set X. If x,y $\in$ X are related by  $\sim$ then it is denoted by x$\sim$y.
+\begin{definition}
+Let $\sim$ be an equivalence relation defined on a set X. \\Let x $\in$ X. Then the set \\
+$\left[x\right]$ := \{y $\vert$ y $\sim$ x\} \\ is called the \textbf{equivalence class} containing x.
+\end{definition}
+
+Equivalence classes have the following properties - 
+\begin{enumerate}
+\item Let x,y $\in$ X, then either $\left[x\right]$ = $\left[y\right]$ or $\left[x\right]$ $\cap$ $\left[y\right]$ = $\emptyset$
+\item $\bigcup_{x \in X}$ = X.
+\end{enumerate}
+Thus equivalence classes form a partition of the set X.
+
+\section{Partial Orders}
+\begin{definition}
+A Relation that is Reflexive, Antisymmetric and Transitive is called a  \textbf{Partial Order}.
+\end{definition}
+\chapter{Equinumerosity and Countability}
+
+\chapter{Sequences and Series of Real Numbers}
+\section{Sequences}
+
+\begin{definition}
+A \textbf{sequence} is a function whose domain is $\mathbb{N}$.
+\end{definition}
+
+\begin{definition}
+A sequence $a_n $ is said to \textbf{converge} to a limit a if \\
+$\forall$ $\epsilon$ $>$ 0 , $\exists$N $\in$ $\mathbb{N}$:$\forall$ n$\geq$ N , $\lvert a_n - a \rvert$ $<$ $\epsilon$
+\end{definition}
+
+\begin{definition}
+A sequence $x_n$ is said to be \textbf{bounded} if \\
+ $\exists$ M $>$ 0 : $\forall$ n $\in$ $\mathbb{N}$ , $\lvert x_n \rvert$ $<$ M
+\end{definition}
+
+\begin{theorem}
+All convergent sequences are bounded.
+\end{theorem}
+
+\begin{theorem}[Algebraic Limit Theorem]
+Let $a_n$ and $b_n$ be sequences, such that $a_n$ $\rightarrow$ a and $b_n$ $\rightarrow$ b. Then,
+\begin{enumerate}
+\item $a_n$ + $b_n$ $\rightarrow$ a + b
+\item $ca_n$ $\rightarrow$ ca
+\item $a_n b_n$ $\rightarrow$ ab
+\item $\frac{a_n}{b_n}$ $\rightarrow$ $\frac{a}{b}$, b $\neq$ 0
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}
+Let $a_n$ and $b_n$ be sequences, such that $a_n$ $\rightarrow$ a and $b_n$ $\rightarrow$ b. Then,
+\begin{enumerate}
+\item If $a_n$ $\geq$ 0 $\forall$ n, then a $\geq$ 0
+\item If $a_n$ $\geq$ $b_n$ $\forall$ n, then a $\geq$ b
+\item If $\exists$ c $\in$ $\mathbb{R}$, such that c $\leq$ $b_n$ $\forall$ n $\in$ $\mathbb{N}$, then c $\leq$ b. Similarly, if c $\geq$ $a_n$ \\ $\forall$n $\in$ $\mathbb{N}$, then c $\geq$ a
+\end{enumerate}
+\end{theorem}
+\begin{definition}
+A sequence is increasing if $a_{n+1}$ $\geq$ $a_n$ $\forall$ n $\in$ $\mathbb{N}$ and decreasing if  $a_{n+1}$ $\leq$ $a_n$ $\forall$ n $\in$ $\mathbb{N}$. \\
+A sequence is \textbf{monotone} if it is increasing or decreasing.
+\end{definition}
+
+\begin{theorem}[Monotone Convergence Theorem]
+If a sequence is bounded and monotone, it converges.
+\end{theorem}
+
+\begin{theorem}[Bolzano Weierstrass Theorem]
+Every bounded sequence has a convergent subsequence.
+\end{theorem}
+
+\begin{definition}
+A sequence is \textbf{Cauchy} if\\
+$\forall$ $\epsilon$ $>$ 0 , $\exists$ N $\in$ $\mathbb{N}$ : $\forall$ m,n $\geq$ N, $\lvert a_m - a_n \rvert$ $<$ $\epsilon$.
+\end{definition}
+
+\begin{theorem}
+All convergent sequences are Cauchy sequences.
+\end{theorem}
+
+\begin{theorem}
+All Cauchy sequences are bounded.
+\end{theorem}
+
+\begin{theorem}
+A sequence in convergent if and only if it is Cauchy.
+\end{theorem}
+
+\section{Series}
+\begin{definition}
+Let $x_n$ be a sequence. A series is an expression of the form \\ 
+$\sum_{n=1}^{\infty}$ $x_n$ = $x_1$ + $x_2$ + $\cdots$ is called a \textbf{series}.
+\end{definition}
+\end{document}
+
