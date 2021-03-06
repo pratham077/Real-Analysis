@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  6 MAR 2021 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  6 MAR 2021 15:24
 entering extended mode
 **"./Real Analysis.tex"
 ("Real Analysis.tex"
@@ -121,13 +121,16 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-\c@theorem=\count193
-\c@definition=\count194
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+\c@definition=\count193
+\c@axiom=\count194
+\c@theorem=\count195
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
  (C:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
 
 (C:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -140,35 +143,35 @@ LaTeX Warning: No \author given.
 {C:/Users/Pratham/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
-7.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9
+0.
  (C:\MikTex\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
  [2] [3]
 Chapter 2.
 [4
@@ -178,16 +181,20 @@ Chapter 3.
 [5
 
 ]
-Overfull \hbox (13.2425pt too wide) in paragraph at lines 163--164
+Chapter 4.
+[6
+
+]
+Overfull \hbox (13.2425pt too wide) in paragraph at lines 177--178
 []\OT1/cmr/m/it/10 If a se-quence is bounded
  []
 
-[6] ("Real Analysis.aux") ) 
+[7] ("Real Analysis.aux") ) 
 Here is how much of TeX's memory you used:
- 2155 strings out of 480790
- 32302 string characters out of 2913605
+ 2161 strings out of 480790
+ 32345 string characters out of 2913605
  280212 words of memory out of 3000000
- 18185 multiletter control sequences out of 15000+200000
+ 18191 multiletter control sequences out of 15000+200000
  541512 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,8n,40p,340b,191s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -202,9 +209,9 @@ ublic/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ic/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on "Real Analysis.pdf" (7 pages, 182618 bytes).
+Output written on "Real Analysis.pdf" (8 pages, 187968 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

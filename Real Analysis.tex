@@ -4,8 +4,11 @@
 \usepackage{physics}
 \begin{document}
 \title{Real Analysis}
-\newtheorem{theorem}{Theorem}[section]
+
 \newtheorem{definition}{Definition}[section]
+\newtheorem{axiom}{Axiom}[section]
+\newtheorem{theorem}{Theorem}[section]
+
 \maketitle
 \chapter{Relations}
 \section{Relations}
@@ -110,10 +113,21 @@ Let X be a set and A $\subseteq$ X. The s $\in$ X is called a \textbf{least uppe
 \item s an upper bound of A
 \item If b is an upper bound of A, then s $\geq$ b.
 \end{enumerate}
-It is also known as the \textbf{supremum} of A. It is usually denoted by s = lub A or s = sup A
+It is also known as the \textbf{supremum} of A. It is usually denoted by s = lub A or s = sup A.
 \end{definition}
 
 \chapter{Equinumerosity and Countability}
+
+\chapter{Real Numbers}
+\begin{axiom}[Axiom of Completeness]
+Every nonempty subset of $\mathbb{R}$ that is bounded above has a least upper bound.
+\end{axiom}
+The Axiom of Completeness is one of the defining characteristics of real numbers. Many important theorems about real numbers follow as a consequence of the Axiom of Completeness.
+
+\begin{theorem}[Nested Interval Property]
+For each n $\in \mathbb{N}$, consider the closed intervals $I_n$ = $\left[a_n,b_n\right] = \{ x \in \mathbb{R}  \vert  a_n \leq x \leq b_n\}$ such that $I_1 \subseteq I_2 \subseteq \cdots$. Then $\bigcap^\infty_{n=0}I_n \neq \emptyset$
+\end{theorem}
+The Nested interval property is just another way of expressing the completeness of $\mathbb{R}$ which will be useful to prove some theorems in real analysis. There are other ways of expressing the same which we will explore in the coming chapters.
 
 \chapter{Sequences and Series of Real Numbers}
 \section{Sequences}
