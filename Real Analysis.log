@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  27 FEB 2021 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  6 MAR 2021 14:02
 entering extended mode
 **"./Real Analysis.tex"
 ("Real Analysis.tex"
@@ -169,20 +169,20 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
- [2]
+ [2] [3]
 Chapter 2.
-[3
-
-]
-Chapter 3.
 [4
 
 ]
-Overfull \hbox (13.2425pt too wide) in paragraph at lines 148--149
+Chapter 3.
+[5
+
+]
+Overfull \hbox (13.2425pt too wide) in paragraph at lines 163--164
 []\OT1/cmr/m/it/10 If a se-quence is bounded
  []
 
-[5] ("Real Analysis.aux") ) 
+[6] ("Real Analysis.aux") ) 
 Here is how much of TeX's memory you used:
  2155 strings out of 480790
  32302 string characters out of 2913605
@@ -202,9 +202,9 @@ ublic/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ic/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on "Real Analysis.pdf" (6 pages, 181010 bytes).
+Output written on "Real Analysis.pdf" (7 pages, 182618 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
