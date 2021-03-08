@@ -194,9 +194,10 @@ All convergent sequences are Cauchy sequences.
 All Cauchy sequences are bounded.
 \end{theorem}
 
-\begin{theorem}
+\begin{theorem}[Cauchy Criterion]
 A sequence in convergent if and only if it is Cauchy.
 \end{theorem}
+The Axiom of Completeness, Nested Interval Property, Monotone Convergence Theorem, Bolzano Weierstrass Theorem and Cauchy's Criterion all assert the same fact - The completeness of $\mathbb{R}$ - in their own language. Any one of them can be taken as an axiom and used to prove the rest.
 
 \section{Series}
 \begin{definition}
@@ -207,10 +208,38 @@ $\sum_{n=1}^{\infty}$ $x_n$ = $x_1$ + $x_2$ + $\cdots$ is called a \textbf{serie
 \begin{definition}
 The sequence $s_n$ = $x_1$ + $x_2$ + $\cdots$ + $x_n$ is called the \textbf{sequence of partial sums}.
 \end{definition}
-The series $\sum_{n=1}^{\infty}$ is said to converge to a s if the corresponding sequence of partial sums $s_n$ converges to s.\\
-$\sum_{n=1}^{\infty}$ = s $\leftrightarrow$  $s_n$ $\rightarrow$ s
+The series $\sum_{n=1}^{\infty}s_n$ is said to converge to a s if the corresponding sequence of partial sums $s_n$ converges to s.\\
+$\sum_{n=1}^{\infty}$ = s $\leftrightarrow$  $s_n$ $\rightarrow$ s.
 
+\begin{theorem}[Algebraic Limit Theorem for Series]
+Let $\sum_{n=1}^{\infty}a_n = A,\sum_{n=1}^{\infty}b_n = B$. Then 
+\begin{enumerate}
+\item $\sum_{n=1}^{\infty}ca_n = cA$ $\forall c \in \mathbb{R}$.
+\item $\sum_{n=1}^{\infty}(a_n + b_n) = A + B$.
+\end{enumerate} 
+\end{theorem}
 
+\begin{theorem}[Cauchy Criterion for Series]
+The series $\sum_{k=1}^{\infty}a_k$ converges if and only if  \\ $\forall \epsilon > 0, \exists N \in \mathbb{N}$ such that when $n \geq m \geq N$, $\lvert a_{m+1} + a_{m+2} + \cdots + a_n\rvert < \epsilon$.
+\end{theorem}
 
+\begin{theorem}
+If the series  $\sum_{k=1}^{\infty}a_k$ converges, then $a_k \rightarrow 0$.
+\end{theorem}
+
+\begin{theorem}[Comparison Test]
+Let $a_k,b_k$ be sequences satisfying $0 \leq a_k \leq b_k$ $\forall k \in \mathbb{N}$, then 
+\begin{enumerate}
+\item If  $\sum_{k=1}^{\infty}b_k$ converges, then  $\sum_{k=1}^{\infty}a_k$ converges.
+\item  $\sum_{k=1}^{\infty}a_k$ diverges, then  $\sum_{k=1}^{\infty}b_k$ diverges.
+\end{enumerate}
+\end{theorem}
+\begin{theorem}[Absolute Convergence Test]
+If the series $\sum_{n=1}^{\infty}\lvert a_n \rvert$ converges, then the series $\sum_{n=1}^{\infty}a_n$ also converges.
+\end{theorem}
+
+\begin{definition}
+If the series $\sum_{n=1}^{\infty}\lvert a_n \rvert$ converges, then the series $\sum_{n=1}^{\infty}a_n$ is said to converge \textbf{absolutely}. If  $\sum_{n=1}^{\infty}a_n$ converges but $\sum_{n=1}^{\infty}\lvert a_n \rvert$ diverges, then $\sum_{n=1}^{\infty}a_n$ is said to converge \textbf{conditionally}.
+\end{definition}
 \end{document}
 

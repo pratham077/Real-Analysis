@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  6 MAR 2021 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  7 MAR 2021 17:27
 entering extended mode
 **"./Real Analysis.tex"
 ("Real Analysis.tex"
@@ -189,29 +189,41 @@ Overfull \hbox (13.2425pt too wide) in paragraph at lines 177--178
 []\OT1/cmr/m/it/10 If a se-quence is bounded
  []
 
-[7] ("Real Analysis.aux") ) 
+
+Overfull \hbox (52.38817pt too wide) in paragraph at lines 215--216
+[]\OT1/cmr/m/it/10 Let $[][] \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/
+it/10 A; [][] b[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (11.0939pt too wide) in paragraph at lines 223--224
+[]\OT1/cmr/m/it/10 The se-ries $[][] \OML/cmm/m/it/10 a[]$ \OT1/cmr/m/it/10 con
+-verges
+ []
+
+[7] [8] ("Real Analysis.aux") ) 
 Here is how much of TeX's memory you used:
  2161 strings out of 480790
  32345 string characters out of 2913605
- 280212 words of memory out of 3000000
+ 282212 words of memory out of 3000000
  18191 multiletter control sequences out of 15000+200000
  541512 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,40p,340b,191s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-><C:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MikTex/fonts/type1/pu
-blic/amsfonts/cm/cmbxti10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1
-/public/amsfonts/cm/cmmi5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb>
-Output written on "Real Analysis.pdf" (8 pages, 187968 bytes).
+ 44i,8n,40p,352b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MikTex/fonts/type
+1/public/amsfonts/cm/cmbxti10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cme
+x10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on "Real Analysis.pdf" (9 pages, 193983 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
