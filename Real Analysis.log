@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  7 MAR 2021 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.16)  9 MAR 2021 13:38
 entering extended mode
 **"./Real Analysis.tex"
 ("Real Analysis.tex"
@@ -185,18 +185,18 @@ Chapter 4.
 [6
 
 ]
-Overfull \hbox (13.2425pt too wide) in paragraph at lines 177--178
+Overfull \hbox (13.2425pt too wide) in paragraph at lines 193--194
 []\OT1/cmr/m/it/10 If a se-quence is bounded
  []
 
 
-Overfull \hbox (52.38817pt too wide) in paragraph at lines 215--216
+Overfull \hbox (52.38817pt too wide) in paragraph at lines 231--232
 []\OT1/cmr/m/it/10 Let $[][] \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/
 it/10 A; [][] b[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (11.0939pt too wide) in paragraph at lines 223--224
+Overfull \hbox (11.0939pt too wide) in paragraph at lines 239--240
 []\OT1/cmr/m/it/10 The se-ries $[][] \OML/cmm/m/it/10 a[]$ \OT1/cmr/m/it/10 con
 -verges
  []
@@ -221,7 +221,7 @@ e1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17
 public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on "Real Analysis.pdf" (9 pages, 193983 bytes).
+Output written on "Real Analysis.pdf" (9 pages, 196124 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
